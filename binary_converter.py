@@ -32,7 +32,7 @@ def convert_dec_to_bin(decimal):
     quotient = int(decimal)
 
     #to convert a whole base 10 number into binary, divide by 2 until the
-     #whole number portion is 0 and reverse order or remainders
+     #whole number portion is 0 and reverse order of remainders
     while quotient >= 1:
         binary_string += str(int(quotient) % 2)
         quotient = quotient / 2
