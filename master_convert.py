@@ -19,8 +19,8 @@ while CONTINUE:
         YOUR_NUMBER = float(input("Enter a Binary:_"))
         YOUR_OUTPUT = binary_converter.convert_bin_to_dec(YOUR_NUMBER)
         YOUR_TYPE = "decimal"
-
-    CONT_FLAG = input("Continue: [Y]es/[N]o ").casefold()
+        
     print(YOUR_NUMBER, " in ", YOUR_TYPE, " is ", YOUR_OUTPUT)
+    CONT_FLAG = input("Continue: [Y]es/[N]o ").casefold()
     if CONT_FLAG[0] == "N".casefold():
         CONTINUE = False
